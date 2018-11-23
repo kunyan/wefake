@@ -1,13 +1,15 @@
-import React from "react";
-import timeago from "timeago.js";
-import { IMoment } from "../models/Moment";
+import React from 'react';
+import timeago from 'timeago.js';
+import {IMoment} from '../models/Moment';
 
 interface IProps {
   moment: IMoment;
 }
 export default class Moment extends React.Component<IProps> {
   renderImages() {
-    return this.props.moment.images.map(imageUrl => <img src={imageUrl} />);
+    return this.props.moment.images.map((imageUrl, index) => (
+      <img key={`moment-image-${index}`} src={imageUrl} />
+    ));
   }
 
   renderText() {

@@ -1,6 +1,6 @@
-import React from "react";
-import { IMoment } from "../models/Moment";
-import Moment from "./Moment";
+import React from 'react';
+import {IMoment} from '../models/Moment';
+import Moment from './Moment';
 
 interface IProps {
   moments: IMoment[];

@@ -1,0 +1,9 @@
+{
+  "extends": ["tslint-config-prettier", "tslint-react"],
+  "rules": {
+    "jsx-alignment": false,
+    "no-implicit-dependencies": false,
+    "no-submodule-imports": false,
+    "member-access": false
+  }
+}

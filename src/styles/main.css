@@ -1,0 +1,32 @@
+.container,
+.page {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.page {
+  background-color: white;
+}
+
+.weui-navbar {
+  background-color: #2e3238;
+  color: white;
+  /* position: fixed; */
+  z-index: 999;
+  padding-top: constant(safe-area-inset-top);
+}
+
+.weui-navbar__item {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.weui-tabbar {
+    position: fixed;
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom); 
+}

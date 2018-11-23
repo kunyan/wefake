@@ -1,6 +1,6 @@
-import { IComment } from "./Comment";
-import { IUser } from "./User";
-import { ILike } from "./Like";
+import {IComment} from './Comment';
+import {IUser} from './User';
+import {ILike} from './Like';
 
 export interface IMoment {
   user: IUser;
