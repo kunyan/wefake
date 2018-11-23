@@ -1,4 +1,4 @@
-import {createBrowserHistory} from 'history';
+import {createHashHistory} from 'history';
 import React from 'react';
 import {
   NavLink as Link,
@@ -17,7 +17,7 @@ import IconContacts from './images/w-icon-contacts.svg';
 import IconDiscover from './images/w-icon-discover.svg';
 import IconProfile from './images/w-icon-profile.svg';
 
-const history = createBrowserHistory();
+const history = createHashHistory();
 const AppRouter = () => (
   <Router history={history}>
     <div className="container">

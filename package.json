@@ -18,7 +18,8 @@
   "author": "Kun Yan <admin@yankun.org>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.conf.ts --history-api-fallback --host 0.0.0.0"
+    "start": "webpack-dev-server --config webpack.conf.ts --history-api-fallback --host 0.0.0.0",
+    "build": "webpack-cli --config webpack.conf.ts --mode production"
   },
   "devDependencies": {
     "@svgr/webpack": "^4.0.3",

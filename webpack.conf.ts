@@ -2,8 +2,10 @@ import webpack from 'webpack';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 const config: webpack.Configuration = {
-  entry: './src/index',
-  mode: 'development',
+  output: {
+    path: __dirname + '/dist',
+    filename: '[name].js',
+  },
   module: {
     rules: [
       {
