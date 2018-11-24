@@ -13,7 +13,7 @@ export default class DiscoverList extends React.PureComponent {
         <div className="weui-cells">
           <Link to="" className="weui-cell weui-cell_access">
             <div className="weui-cell__hd">
-              <IconMoment style={{marginRight: '5px', display: 'block'}} />
+              <IconMoment className="menu-icon" />
             </div>
             <div className="weui-cell__bd">
               <p>朋友圈</p>
@@ -25,7 +25,7 @@ export default class DiscoverList extends React.PureComponent {
         <div className="weui-cells">
           <Link to="" className="weui-cell weui-cell_access">
             <div className="weui-cell__hd">
-              <IconScan style={{marginRight: '5px', display: 'block'}} />
+              <IconScan className="menu-icon" />
             </div>
             <div className="weui-cell__bd">
               <p>扫一扫</p>
@@ -43,7 +43,7 @@ export default class DiscoverList extends React.PureComponent {
         <div className="weui-cells">
           <Link to="" className="weui-cell weui-cell_access">
             <div className="weui-cell__hd">
-              <IconShop style={{marginRight: '5px', display: 'block'}} />
+              <IconShop className="menu-icon" />
             </div>
             <div className="weui-cell__bd">
               <p>购物</p>
@@ -52,7 +52,7 @@ export default class DiscoverList extends React.PureComponent {
           </Link>
           <Link to="" className="weui-cell weui-cell_access">
           <div className="weui-cell__hd">
-              <IconGame style={{marginRight: '5px', display: 'block'}} />
+              <IconGame className="menu-icon" />
             </div>
             <div className="weui-cell__bd">
               <p>游戏</p>
@@ -64,7 +64,7 @@ export default class DiscoverList extends React.PureComponent {
         <div className="weui-cells">
           <Link to="" className="weui-cell weui-cell_access">
             <div className="weui-cell__hd">
-              <IconApp style={{marginRight: '5px', display: 'block'}} />
+              <IconApp className="menu-icon" />
             </div>
             <div className="weui-cell__bd">
               <p>小程序</p>

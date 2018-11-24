@@ -8,7 +8,7 @@ export default class Me extends React.PureComponent {
         <div className="weui-navbar">
           <div className="weui-navbar__item">我</div>
         </div>
-        <div style={{paddingTop: '60px', backgroundColor: 'white'}}>
+        <div style={{paddingTop: '60px'}}>
           <MeList />
         </div>
       </div>

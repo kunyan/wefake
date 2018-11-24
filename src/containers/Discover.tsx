@@ -8,7 +8,7 @@ export default class Discover extends React.PureComponent {
         <div className="weui-navbar">
           <div className="weui-navbar__item">发现</div>
         </div>
-        <div style={{paddingTop: '60px', backgroundColor: 'white'}}>
+        <div style={{paddingTop: '60px'}}>
           <DiscoverList />
         </div>
       </div>

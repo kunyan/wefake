@@ -14,7 +14,7 @@ export default class MeList extends React.PureComponent {
         <div className="weui-cells">
           <Link to="" className="weui-cell weui-cell_access">
             <div className="weui-cell__hd">
-              <IconWallet style={{marginRight: '5px', display: 'block'}} />
+              <IconWallet className="menu-icon" />
             </div>
             <div className="weui-cell__bd">
               <p>钱包</p>
@@ -26,7 +26,7 @@ export default class MeList extends React.PureComponent {
         <div className="weui-cells">
           <Link to="" className="weui-cell weui-cell_access">
             <div className="weui-cell__hd">
-              <IconCollection style={{marginRight: '5px', display: 'block'}} />
+              <IconCollection className="menu-icon" />
             </div>
             <div className="weui-cell__bd">
               <p>收藏</p>
@@ -35,7 +35,7 @@ export default class MeList extends React.PureComponent {
           </Link>
           <Link to="" className="weui-cell weui-cell_access">
             <div className="weui-cell__hd">
-              <IconAlbum style={{marginRight: '5px', display: 'block'}} />
+              <IconAlbum className="menu-icon" />
             </div>
             <div className="weui-cell__bd">
               <p>相册</p>
@@ -44,7 +44,7 @@ export default class MeList extends React.PureComponent {
           </Link>
           <Link to="" className="weui-cell weui-cell_access">
             <div className="weui-cell__hd">
-              <IconVip style={{marginRight: '5px', display: 'block'}} />
+              <IconVip className="menu-icon" />
             </div>
             <div className="weui-cell__bd">
               <p>卡包</p>
@@ -53,7 +53,7 @@ export default class MeList extends React.PureComponent {
           </Link>
           <Link to="" className="weui-cell weui-cell_access">
             <div className="weui-cell__hd">
-              <IconEmoj style={{marginRight: '5px', display: 'block'}} />
+              <IconEmoj className="menu-icon" />
             </div>
             <div className="weui-cell__bd">
               <p>表情</p>
@@ -65,7 +65,7 @@ export default class MeList extends React.PureComponent {
         <div className="weui-cells">
           <Link to="" className="weui-cell weui-cell_access">
             <div className="weui-cell__hd">
-              <IconSetting style={{marginRight: '5px', display: 'block'}} />
+              <IconSetting className="menu-icon" />
             </div>
             <div className="weui-cell__bd">
               <p>设置</p>
