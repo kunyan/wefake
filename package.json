@@ -18,8 +18,9 @@
   "author": "Kun Yan <admin@yankun.org>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.conf.ts --history-api-fallback --host 0.0.0.0",
-    "build": "webpack-cli --config webpack.conf.ts --mode production"
+    "start": "webpack-dev-server --config webpack.conf.ts --mode development --history-api-fallback --host 0.0.0.0",
+    "build": "webpack-cli --config webpack.conf.ts --mode production",
+    "publish:page": "rm -rf dist && npm run build && cd dist && git init && git add . && git commit -m 'Update pages' && git remote add origin git@github.com:kunyan/wefake.git && git push --force origin master:gh-pages"
   },
   "devDependencies": {
     "@svgr/webpack": "^4.0.3",
